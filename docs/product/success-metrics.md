@@ -19,7 +19,12 @@ An outcome metric measures a change for a user or the business (readiness improv
 
 ## Measurement prerequisites
 
-M3–M6 depend on infrastructure that is itself a stated gap and must be built first: usage-time tracking (R52) and an analytics/event pipeline (R53). Until those exist, these metrics cannot be measured at scale (SRC-D1-§2.7).
+Each metric depends on a specific prerequisite; several of these are themselves stated gaps that must be built before the metric can be measured at scale (SRC-D1-§2.7):
+
+- **M3 (study consistency)** needs usage-time tracking (R52) and the analytics/event pipeline (R53) — both current gaps.
+- **M4 (grounded-answer trust)** needs the thumbs-up/down + comment feedback feature on every AI response (R17, SRC-D1-§2.1.1) — not the analytics pipeline.
+- **M5 (parent readiness visibility)** needs parent-activity analytics, i.e. usage-time tracking (R52) and the analytics/event pipeline (R53).
+- **M6 (business value)** needs billing primitives — balance, transaction, paywall (R54, SRC-D1-§2.7) — plus the unresolved monetization model (Q-004).
 
 ## Note on baselines and targets
 

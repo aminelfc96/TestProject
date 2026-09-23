@@ -26,7 +26,7 @@ Algeria runs two education systems in parallel: a free public one, and a private
 ## Value proposition
 
 - **For students:** tutoring and practice that can cite the actual syllabus, personalized to demonstrated mastery rather than random (SRC-D1-§2.1).
-- **For parents:** visible, comparable proof of exam readiness with a needs-attention flag — replacing blind payment for tutoring (SRC-D1-§2.1).
+- **For parents:** visible, comparable proof of exam readiness with a needs-attention flag (SRC-D1-§2.1) — replacing blind payment for tutoring *(inferred from the inception brief's market context — ASM-012)*.
 - **For teachers/admins:** a platform they can run and adapt without engineering (SRC-D1-§2.1).
 
 ## Product boundaries
@@ -50,7 +50,7 @@ Algeria runs two education systems in parallel: a free public one, and a private
 - The superseded subjects→topics→exercises content hierarchy and population-level "common mistake" mining (SRC-D1-§2.1.2).
 - A trained/custom ML personalization model — scikit-learn/pandas are dependencies only; nothing runs today (SRC-D1-§2.2).
 - A single-page-app frontend build — the product is Jinja2 + HTMX + Alpine, no SPA (SRC-D1-§2.2).
-- Curriculum authoring — the platform ingests admin-uploaded PDFs; it does not author the curriculum (SRC-D1-§2.1).
+- Curriculum authoring — the platform ingests admin-uploaded course PDFs (SRC-D1-§2.1); authoring the curriculum is not a product function *(inferred — ASM-022)*.
 - Production deployment topology and scale — D1 documents only local development (see Q-001, Q-002).
 - A specific monetization model (who pays, pricing, free tier) — unspecified in D1 (see Q-004).
 
